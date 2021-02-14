@@ -15,14 +15,14 @@ import * as DomUtil from '../../dom/DomUtil';
  *
  * If you want to _completely_ replace the default icon, override the
  * `L.Marker.prototype.options.icon` with your own icon instead.
- */
+ */s
 console.log("TESTICON");
 export var IconDefault = Icon.extend({
 
 	options: {
 		iconUrl:       'NICKmarker-icon.png',
-		iconRetinaUrl: 'marker-icon-2x.png',
-		shadowUrl:     'marker-shadow.png',
+		iconRetinaUrl: 'NICKmarker-icon-2x.png',
+		shadowUrl:     'NICKmarker-shadow.png',
 		iconSize:    [25, 41],
 		iconAnchor:  [12, 41],
 		popupAnchor: [1, -34],
