@@ -16,7 +16,7 @@ import * as DomUtil from '../../dom/DomUtil';
  * If you want to _completely_ replace the default icon, override the
  * `L.Marker.prototype.options.icon` with your own icon instead.
  */
-
+console.log("TESTICON");
 export var IconDefault = Icon.extend({
 
 	options: {
@@ -39,7 +39,7 @@ export var IconDefault = Icon.extend({
 		// `Icon.Default` will try to auto-detect the location of the
 		// blue icon images. If you are placing these images in a non-standard
 		// way, set this option to point to the right path.
-		return (this.options.imagePath || IconDefault.imagePath) + Icon.prototype._getIconUrl.call(this, name);
+		return (this.options.imagePath || IconDefault.imagePath) // NLTEST1 + Icon.prototype._getIconUrl.call(this, name);
 	},
 
 	_detectIconPath: function () {
