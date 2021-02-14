@@ -20,7 +20,7 @@ console.log("TESTICON");
 export var IconDefault = Icon.extend({
 
 	options: {
-		iconUrl:       'marker-icon.png',
+		iconUrl:       'NICKmarker-icon.png',
 		iconRetinaUrl: 'marker-icon-2x.png',
 		shadowUrl:     'marker-shadow.png',
 		iconSize:    [25, 41],
